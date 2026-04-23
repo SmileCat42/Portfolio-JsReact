@@ -22,8 +22,8 @@ const P3 = () => {
             Product
         </span>
         <a href="/"
-        className="hover:scale-110 transition-all duration-300">
-            <span className="bg-linear-to-br from-yellow-400 to-yellow-600 py-2 px-3 font-semibold 
+        className=" hover:scale-110 transition-all duration-300">
+            <span className="text-sm bg-linear-to-br from-yellow-400 to-yellow-600 py-3 px-6 font-semibold 
             text-white rounded-2xl ">Sign in</span>
         </a>
       </div>
