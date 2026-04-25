@@ -2,11 +2,11 @@ import React from 'react'
 import pt from '../assets/plant.png'
 const P5 = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-700">
-        <div className="container grid grid-cols-3 place-items-center">
+    <div className="flex justify-center py-5 items-center min-h-screen bg-gray-700">
+        <div className="container grid grid-cols-1 lg:grid-cols-3 px-10 md:px-2 gap-10 place-items-center">
             <img src={pt}
-            className="w-1/2"/>
-            <div>
+            className="w-55 lg:w-1/2 "/>
+            <div className="">
                 <h1 className="text-5xl font-bold text-white
                 ">
                     <span className="text-green-400">Tree</span> Species
@@ -29,7 +29,32 @@ const P5 = () => {
     <span className="text-green-500 font-semibold">
 3. Adaptability: </span>Ensuring the species thrives in the local environment, contributing to long-term ecological health.
             </div></div></div>
-            <div>c</div>
+
+            <div className="bg-gray-600 w-56 h-full rounded-3xl border text-green-200">
+                <div className="text-green-200 text-center font-semibold
+                py-5 text-3xl bg-green-800 border "> Tools</div>
+                <div className="text-white text-xl font-semibold
+                py-5 text-center hover:bg-green-400 hover:scale-110 transition-all duration-300
+                "><span className="text-orange-500 text-sm">►</span> Takecare</div>
+                <div className="text-white text-xl font-semibold
+                py-5 text-center hover:bg-green-400 hover:scale-110 transition-all duration-300
+                "><span className="text-orange-500 text-sm">►</span> Powerset</div>
+                <div className="text-white text-xl font-semibold
+                py-5 text-center hover:bg-green-400 hover:scale-110 transition-all duration-300
+                "><span className="text-orange-500 text-sm">►</span> Training</div>
+                <div className="text-white text-xl font-semibold
+                py-5 text-center hover:bg-green-400 hover:scale-110 transition-all duration-300
+                "><span className="text-orange-500 text-sm">►</span> Rest</div>
+                <div className="text-white text-xl font-semibold
+                py-5 text-center hover:bg-green-400 hover:scale-110 transition-all duration-300
+                "><span className="text-orange-500 text-sm">►</span> Destroy</div>
+                <div className="py-5 flex justify-center">
+                    <div className="bg-pink-500 py-4 w-30 text-white text-center
+                    font-bold rounded-3xl text-xl hover:bg-pink-400 
+                    hover:scale-110 transition-all duration-300">
+                     Exit </div>
+                </div>
+            </div>
         </div>
     </div>
   )
