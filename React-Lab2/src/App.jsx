@@ -7,6 +7,7 @@ import P2 from './part/P2.jsx'
 import P3 from './part/P3.jsx'
 import P4 from './part/P4.jsx'
 import P5 from './part/P5.jsx'
+import P6 from './part/P6.jsx'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <P3/>
     <P4/>
     <P5/>
+    <P6/>
    </div>
   )
 }
