@@ -4,7 +4,8 @@ import ft from '../assets/fruit.png'
 const P4 = () => {
   return (
     <div className="min-h-screen bg-gray-700 flex items-center justify-center
-    overflow-hidden">
+    overflow-hidden"
+    id="P4">
         <div className="container place-items-center grid grid-cols-1 
         md:grid-cols-2 items-center py-20 md:py-5">
             <div className="max-w-md py-15 md:py-10 px-15 md:px-10 md:ml-20 order-2 md:order-1"> 
