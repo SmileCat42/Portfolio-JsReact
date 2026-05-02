@@ -11,7 +11,7 @@ const P1 = () => {
           Navbar
           <span className="text-yellow-500 font-bold">.</span>
       </span></a>
-      <a href="/"
+      <a href="/intrend"
       className="hover:scale-110 transition-all duration-300">
       <span className="text-yellow-500 font-semibold hover:text-yellow-300">
           About

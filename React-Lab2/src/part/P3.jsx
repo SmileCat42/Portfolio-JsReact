@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const P3 = () => {
   return (
@@ -13,14 +14,15 @@ const P3 = () => {
         hover:scale-110 transition-all duration-300">
           Home
         </span>
-        <span className="text-pink-300 pl-10
+        <Link to="/intrend" className="text-pink-300 pl-10
         hover:scale-110 transition-all duration-300">
           About
-        </span>
-        <span className="text-pink-300 pl-10
+</Link>
+
+        <Link to="/nova"
+        className="text-pink-300 pl-10
         hover:scale-110 transition-all duration-300">
-          Product
-        </span>
+          Product</Link>
         <span className="text-pink-300 pl-10
         hover:scale-110 transition-all duration-300">
           Contact

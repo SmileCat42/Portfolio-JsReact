@@ -4,7 +4,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Home from './Page/Home.jsx'
-
+import Int from './Page/Intrend.jsx'
+import Nova from './Page/Nova.jsx'
 import './App.css'
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/intrend" element={<Int/>}/>
+        <Route path="/nova" element={<Nova/>}/>
       </Routes>
     </BrowserRouter>
   )
